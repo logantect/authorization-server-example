@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.6.3'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
